@@ -18,16 +18,6 @@ class Fstk < Formula
 
   def install
     bin.install Dir["fstk*"].first => "fstk"
-    
-    # Generate shell completions
-    output = Utils.safe_popen_read(bin/"fstk", "completion", "bash")
-    (bash_completion/"fstk").write output
-    
-    output = Utils.safe_popen_read(bin/"fstk", "completion", "zsh") 
-    (zsh_completion/"_fstk").write output
-    
-    output = Utils.safe_popen_read(bin/"fstk", "completion", "fish")
-    (fish_completion/"fstk.fish").write output
   end
 
   test do
