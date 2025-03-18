@@ -1,18 +1,18 @@
 class Fstk < Formula
   desc "File Stack - A CLI tool for managing files and directories in a stack format"
   homepage "https://github.com/archsyscall/fstk"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/archsyscall/fstk/releases/download/v0.2.1/fstk-0.2.1-aarch64-macos"
-      sha256 "0498c579825134deea06139751d3daaba0f1053fa3d899801c5b71f607bf774b"
+      url "https://github.com/archsyscall/fstk/releases/download/v0.2.2/fstk-0.2.2-aarch64-macos"
+      sha256 "2859fdc13cf5fe17d49df5286b3af2e6805bd54c26666ad24d8abdef22c68148"
     end
   
     on_intel do
-      url "https://github.com/archsyscall/fstk/releases/download/v0.2.1/fstk-0.2.1-x86_64-macos"
-      sha256 "17ea8b92e287255d0ce478abc049233a8b1c0cf04a4f64175be051a4b95ac08b"
+      url "https://github.com/archsyscall/fstk/releases/download/v0.2.2/fstk-0.2.2-x86_64-macos"
+      sha256 "aac95bfe52cff680dc5ed033aa7274ae04d8651c63a039f9546515c38ba908fb"
     end
   end
 
